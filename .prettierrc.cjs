@@ -4,12 +4,12 @@ module.exports = {
   printWidth: 80, // default 80
   tabWidth: 2, // default 2
   useTabs: false, // default false
-  semi: true, // default true
+  semi: false, // default true
   singleQuote: true, // default false
   quoteProps: 'as-needed', // default as-needed
   jsxSingleQuote: true, // default false
   trailingComma: 'es5', // default es5
   bracketSpacing: true, //default true
-  bracketSameLine: false, //default false
+  bracketSameLine: true, //default false
   arrowParens: 'always', // default always
-};
+}
