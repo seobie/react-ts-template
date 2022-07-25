@@ -30,7 +30,8 @@
     "simple-import-sort",
     "import",
     "sort-destructure-keys",
-    "typescript-sort-keys"
+    "typescript-sort-keys",
+    "sort-keys-fix"
   ],
   "settings": {
     "import/parsers": {
@@ -119,6 +120,7 @@
       }
     ],
     "sort-destructure-keys/sort-destructure-keys": "error",
-    "consistent-return": "error"
+    "consistent-return": "error",
+    "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }]
   }
 }
