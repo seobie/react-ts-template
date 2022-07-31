@@ -112,13 +112,7 @@
       }
     ],
     "import/no-unresolved": "error",
-    "react/self-closing-comp": [
-      "error",
-      {
-        "component": true,
-        "html": true
-      }
-    ],
+    "react/self-closing-comp": "error",
     "sort-destructure-keys/sort-destructure-keys": "error",
     "consistent-return": "error",
     "sort-keys-fix/sort-keys-fix": ["error", "asc", { "natural": true }]
